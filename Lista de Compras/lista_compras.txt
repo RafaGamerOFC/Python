@@ -1,0 +1,11 @@
+Queijo,23.0
+Presunto,15.0
+Oregano,2.99
+Alcool,19.0
+Calabresa,13.0
+Banana,15.0
+Ovo,31.0
+Oléo,15.9
+Beterraba,6.99
+Nescau,19.0
+Papel Higiênico,23.0
