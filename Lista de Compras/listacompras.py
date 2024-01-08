@@ -106,10 +106,14 @@ while True:
         print(f'{"VER LISTA DE COMPRAS":^45}')
         print('=' * 45)
         cont = 0
+        soma = 0
         for qnt in nomes:
             print(f'{nomes[cont]:.<35}', end='')
             print(f'R${valores[cont]:>8.2f}')
+            soma = soma + float(valores[cont])
             cont += 1
+        print('=' * 45)
+        print(f'{"Valor total":<35}', end=''), print(f'R${soma:>8.2f}')
         print('=' * 45)
         input('\nAperte ENTER para continuar.')
     if menu == '4':
