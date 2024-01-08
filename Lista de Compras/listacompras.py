@@ -58,7 +58,9 @@ while True:
                     break
             while True:
                 try:
-                    valor_produto = float(input('Digite o valor: '))
+                    valor_produto = str(input('Digite o valor: ')).strip()
+                    valor_produto = valor_produto.replace(",", ".")
+                    valor_produto = float(valor_produto)
                     break
                 except ValueError:
                     print('Por favor, digite um valor válido.')
